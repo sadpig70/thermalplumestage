@@ -7,9 +7,9 @@
 - [x] CLI full JSON report
 - [x] CLI Markdown report
 - [x] SVG XML parse
-- [ ] GitHub publication
-- [ ] consumed ledger registration
+- [x] GitHub publication -> https://github.com/sadpig70/thermalplumestage
+- [x] consumed ledger registration -> entries=53, errors=0
 
 ## Result
 
-Implementation verification passed. Publication and root ledger registration pending.
+Implementation, publication, and root ledger registration passed.

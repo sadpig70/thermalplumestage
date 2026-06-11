@@ -5,8 +5,11 @@
   "source_candidate": "ThermalPlume Stage",
   "cross_model_certified": false,
   "production_promotion_required": true,
-  "status": "implementation_verified",
+  "status": "published_and_registered",
   "verified": true,
-  "published": false,
-  "ledger_registered": false
+  "published": true,
+  "ledger_registered": true,
+  "repo_url": "https://github.com/sadpig70/thermalplumestage",
+  "aox_wrapup_run": "AOX-20260611-005",
+  "ledger_entries": 53
 }
