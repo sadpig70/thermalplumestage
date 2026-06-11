@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thermalplumestage"
+version = "0.1.0"
+description = "Marine thermal-discharge dispersion planner for valve timing and ecological thresholds."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "IdeaFirst"}]
+keywords = ["marine-ecology", "thermal-discharge", "geothermal", "plume-dispersion", "environmental-monitoring"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+]
+
+[project.scripts]
+thermalplumestage = "thermalplumestage.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

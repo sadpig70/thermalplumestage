@@ -1,0 +1,154 @@
+{
+  "boundary": {
+    "cross_model_certified": false,
+    "production_promotion_required": true,
+    "source_artifact": ".sa-evx/rounds/SA-EVX-20260611-001/final_integrated_idea.md",
+    "source_candidate": "ThermalPlume Stage",
+    "source_round": "SA-EVX-20260611-001"
+  },
+  "facility_name": "Mariner Geothermal Test Basin",
+  "forecast_id": "KHOA-20260611T0600Z",
+  "site_id": "MGT-BASIN-07",
+  "summary": {
+    "best_release_hours": [
+      {
+        "flow_m3_s": 0.6229,
+        "hour": 3,
+        "point_id": "OUTFALL-A"
+      },
+      {
+        "flow_m3_s": 0.4773,
+        "hour": 3,
+        "point_id": "OUTFALL-B"
+      }
+    ],
+    "critical_habitat": true,
+    "differentiation": "physical marine thermal-discharge dispersion control, not heat monetization or bio-release quarantine",
+    "ecology_threshold_c": 1.1,
+    "halt_windows": 3,
+    "max_boundary_delta_c": 5.7708,
+    "mitigation_windows": 2,
+    "overall_status": "stage_release",
+    "planned_windows": 7,
+    "sensitive_species": [
+      "eelgrass bed",
+      "abalone nursery"
+    ]
+  },
+  "windows": [
+    {
+      "boundary_delta_c": 0.9306,
+      "dilution_radius_m": 170.45,
+      "evidence_gaps": [],
+      "exposure_credit_hours": 1.0,
+      "hour": 3,
+      "point_id": "OUTFALL-A",
+      "rationale": [
+        "current=0.63m/s tide=ebb",
+        "ambient=8.1C discharge=22.5C",
+        "protected_radius=500m habitat_distance=620m"
+      ],
+      "recommended_flow_m3_s": 0.6229,
+      "status": "within_threshold",
+      "valve_fraction": 0.1074
+    },
+    {
+      "boundary_delta_c": 0.9306,
+      "dilution_radius_m": 187.39,
+      "evidence_gaps": [],
+      "exposure_credit_hours": 1.0,
+      "hour": 3,
+      "point_id": "OUTFALL-B",
+      "rationale": [
+        "current=0.63m/s tide=ebb",
+        "ambient=8.1C discharge=18.8C",
+        "protected_radius=500m habitat_distance=430m"
+      ],
+      "recommended_flow_m3_s": 0.4773,
+      "status": "within_threshold",
+      "valve_fraction": 0.1404
+    },
+    {
+      "boundary_delta_c": 1.1933,
+      "dilution_radius_m": 205.04,
+      "evidence_gaps": [],
+      "exposure_credit_hours": 0.5,
+      "hour": 12,
+      "point_id": "OUTFALL-A",
+      "rationale": [
+        "current=0.51m/s tide=flood",
+        "ambient=8.9C discharge=22.5C",
+        "protected_radius=500m habitat_distance=620m"
+      ],
+      "recommended_flow_m3_s": 0.6,
+      "status": "mitigate",
+      "valve_fraction": 0.0807
+    },
+    {
+      "boundary_delta_c": 1.3767,
+      "dilution_radius_m": 221.93,
+      "evidence_gaps": [],
+      "exposure_credit_hours": 0.5,
+      "hour": 1,
+      "point_id": "OUTFALL-A",
+      "rationale": [
+        "current=0.42m/s tide=ebb",
+        "ambient=8.2C discharge=22.5C",
+        "protected_radius=500m habitat_distance=620m"
+      ],
+      "recommended_flow_m3_s": 0.6,
+      "status": "mitigate",
+      "valve_fraction": 0.0699
+    },
+    {
+      "boundary_delta_c": 1.5071,
+      "dilution_radius_m": 287.01,
+      "evidence_gaps": [],
+      "exposure_credit_hours": 0.0,
+      "hour": 15,
+      "point_id": "OUTFALL-B",
+      "rationale": [
+        "current=0.36m/s tide=flood",
+        "ambient=9.0C discharge=18.8C",
+        "protected_radius=500m habitat_distance=430m"
+      ],
+      "recommended_flow_m3_s": 0.4,
+      "status": "halt",
+      "valve_fraction": 0.0726
+    },
+    {
+      "boundary_delta_c": 1.7732,
+      "dilution_radius_m": 271.41,
+      "evidence_gaps": [],
+      "exposure_credit_hours": 0.0,
+      "hour": 15,
+      "point_id": "OUTFALL-A",
+      "rationale": [
+        "current=0.36m/s tide=flood",
+        "ambient=9.0C discharge=22.5C",
+        "protected_radius=500m habitat_distance=620m"
+      ],
+      "recommended_flow_m3_s": 0.6,
+      "status": "halt",
+      "valve_fraction": 0.0543
+    },
+    {
+      "boundary_delta_c": 5.7708,
+      "dilution_radius_m": 880.53,
+      "evidence_gaps": [
+        "weak current forecast"
+      ],
+      "exposure_credit_hours": 0.0,
+      "hour": 5,
+      "point_id": "OUTFALL-B",
+      "rationale": [
+        "current=0.21m/s tide=slack",
+        "ambient=8.5C discharge=18.8C",
+        "protected_radius=500m habitat_distance=430m"
+      ],
+      "recommended_flow_m3_s": 0.4,
+      "status": "halt",
+      "valve_fraction": 0.0137
+    }
+  ]
+}

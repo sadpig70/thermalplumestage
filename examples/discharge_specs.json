@@ -1,0 +1,57 @@
+{
+  "baseline_temp_c": 8.4,
+  "discharge_points": [
+    {
+      "allowed_hours": [
+        1,
+        2,
+        3,
+        4,
+        12,
+        13,
+        14,
+        15
+      ],
+      "coordinates": [
+        35.1271,
+        129.1432
+      ],
+      "diffuser_efficiency": 0.78,
+      "discharge_temp_c": 22.5,
+      "evidence": [
+        "diffuser survey 2026-05",
+        "ROV habitat map"
+      ],
+      "habitat_distance_m": 620,
+      "max_flow_m3_s": 5.8,
+      "min_flow_m3_s": 0.6,
+      "mixing_depth_m": 34,
+      "point_id": "OUTFALL-A"
+    },
+    {
+      "allowed_hours": [
+        3,
+        4,
+        5,
+        15,
+        16
+      ],
+      "coordinates": [
+        35.1192,
+        129.151
+      ],
+      "diffuser_efficiency": 0.61,
+      "discharge_temp_c": 18.8,
+      "evidence": [
+        "temperature probe array"
+      ],
+      "habitat_distance_m": 430,
+      "max_flow_m3_s": 3.4,
+      "min_flow_m3_s": 0.4,
+      "mixing_depth_m": 19,
+      "point_id": "OUTFALL-B"
+    }
+  ],
+  "facility_name": "Mariner Geothermal Test Basin",
+  "site_id": "MGT-BASIN-07"
+}

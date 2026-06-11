@@ -1,0 +1,54 @@
+{
+  "forecast_hours": [
+    {
+      "ambient_temp_c": 8.2,
+      "current_speed_m_s": 0.42,
+      "direction_deg": 81,
+      "hour": 1,
+      "stratification_index": 0.24,
+      "tide_state": "ebb"
+    },
+    {
+      "ambient_temp_c": 8.1,
+      "current_speed_m_s": 0.63,
+      "direction_deg": 92,
+      "hour": 3,
+      "stratification_index": 0.18,
+      "tide_state": "ebb"
+    },
+    {
+      "ambient_temp_c": 8.5,
+      "current_speed_m_s": 0.21,
+      "direction_deg": 144,
+      "hour": 5,
+      "stratification_index": 0.56,
+      "tide_state": "slack"
+    },
+    {
+      "ambient_temp_c": 8.9,
+      "current_speed_m_s": 0.51,
+      "direction_deg": 260,
+      "hour": 12,
+      "stratification_index": 0.31,
+      "tide_state": "flood"
+    },
+    {
+      "ambient_temp_c": 9.0,
+      "current_speed_m_s": 0.36,
+      "direction_deg": 245,
+      "hour": 15,
+      "stratification_index": 0.41,
+      "tide_state": "flood"
+    },
+    {
+      "ambient_temp_c": 8.7,
+      "current_speed_m_s": 0.18,
+      "direction_deg": 201,
+      "hour": 20,
+      "storm_watch": true,
+      "stratification_index": 0.72,
+      "tide_state": "slack"
+    }
+  ],
+  "forecast_id": "KHOA-20260611T0600Z"
+}

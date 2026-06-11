@@ -1,0 +1,12 @@
+{
+  "project": "ThermalPlume Stage",
+  "package": "thermalplumestage",
+  "source_round": "SA-EVX-20260611-001",
+  "source_candidate": "ThermalPlume Stage",
+  "cross_model_certified": false,
+  "production_promotion_required": true,
+  "status": "implementation_verified",
+  "verified": true,
+  "published": false,
+  "ledger_registered": false
+}

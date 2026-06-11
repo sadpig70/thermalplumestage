@@ -1,0 +1,11 @@
+{
+  "critical_habitat": true,
+  "max_delta_c_at_boundary": 1.1,
+  "max_exposure_hours": 2.5,
+  "protected_radius_m": 500,
+  "recovery_window_hours": 4,
+  "sensitive_species": [
+    "eelgrass bed",
+    "abalone nursery"
+  ]
+}

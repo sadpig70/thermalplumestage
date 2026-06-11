@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">ThermalPlume Stage infographic</title>
+  <desc id="desc">Marine thermal-discharge valve timing and plume dilution planning.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12394c"/>
+      <stop offset="0.52" stop-color="#0d5d73"/>
+      <stop offset="1" stop-color="#167a79"/>
+    </linearGradient>
+    <linearGradient id="plume" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb84d" stop-opacity="0.95"/>
+      <stop offset="0.48" stop-color="#ff7f50" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#f7f1d2" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" fill="#071821"/>
+  <rect x="36" y="36" width="1128" height="648" rx="18" fill="url(#sea)" stroke="#79d6df" stroke-opacity="0.32"/>
+  <path d="M36 488 C170 438 264 520 392 470 C520 420 602 490 738 438 C884 382 1010 435 1164 390 L1164 684 L36 684 Z" fill="#062633" opacity="0.72"/>
+  <path d="M90 178 C210 132 310 182 426 150 C550 116 675 173 798 139 C918 106 1034 143 1120 110" fill="none" stroke="#bdebf0" stroke-opacity="0.26" stroke-width="5"/>
+  <path d="M92 222 C225 176 324 230 446 197 C565 165 690 214 812 184 C934 154 1030 187 1124 156" fill="none" stroke="#bdebf0" stroke-opacity="0.18" stroke-width="4"/>
+  <g transform="translate(88 500)">
+    <rect x="0" y="0" width="260" height="76" rx="8" fill="#102b35" stroke="#8ee8dd" stroke-opacity="0.5"/>
+    <rect x="28" y="-48" width="190" height="52" rx="6" fill="#31484d" stroke="#c5f2e8" stroke-opacity="0.55"/>
+    <rect x="58" y="-82" width="36" height="38" fill="#4d6b6e"/>
+    <rect x="142" y="-82" width="36" height="38" fill="#4d6b6e"/>
+    <text x="26" y="47" fill="#e8fbf8" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Geothermal Outfall</text>
+  </g>
+  <g opacity="0.95">
+    <path d="M328 526 C450 430 603 384 805 372 C930 364 1034 384 1134 430 C960 414 806 428 656 474 C530 512 424 546 328 526 Z" fill="url(#plume)" filter="url(#soft)"/>
+    <path d="M328 526 C450 430 603 384 805 372 C930 364 1034 384 1134 430" fill="none" stroke="#ffd08a" stroke-width="4" stroke-opacity="0.85"/>
+    <path d="M330 552 C500 503 660 472 828 478 C958 482 1052 510 1134 552" fill="none" stroke="#f7f1d2" stroke-width="3" stroke-dasharray="12 12" stroke-opacity="0.55"/>
+  </g>
+  <g transform="translate(700 86)">
+    <rect x="0" y="0" width="380" height="184" rx="10" fill="#0b2530" stroke="#7ad7ce" stroke-opacity="0.55"/>
+    <text x="28" y="48" fill="#f3fffb" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Valve Timing</text>
+    <text x="28" y="86" fill="#bfe7e0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Reduce flow when boundary delta rises</text>
+    <g transform="translate(30 112)">
+      <rect x="0" y="0" width="310" height="16" rx="8" fill="#173d48"/>
+      <rect x="0" y="0" width="212" height="16" rx="8" fill="#f0b24a"/>
+      <circle cx="212" cy="8" r="18" fill="#ffe0a3" stroke="#08202a" stroke-width="4"/>
+      <text x="0" y="52" fill="#e8fbf8" font-family="Segoe UI, Arial, sans-serif" font-size="19">boundary threshold: 1.1C</text>
+    </g>
+  </g>
+  <g transform="translate(132 96)">
+    <text x="0" y="0" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="800">ThermalPlume Stage</text>
+    <text x="0" y="48" fill="#c7eee8" font-family="Segoe UI, Arial, sans-serif" font-size="22">Marine thermal-discharge dispersion planner</text>
+  </g>
+  <g transform="translate(750 495)" fill="none" stroke="#d5fff8" stroke-opacity="0.72">
+    <circle cx="0" cy="0" r="42"/>
+    <circle cx="0" cy="0" r="82" stroke-dasharray="8 10"/>
+    <circle cx="0" cy="0" r="124" stroke-dasharray="4 14"/>
+    <text x="-92" y="154" fill="#e8fbf8" stroke="none" font-family="Segoe UI, Arial, sans-serif" font-size="20">ecological boundary</text>
+  </g>
+  <g transform="translate(118 620)">
+    <rect x="0" y="0" width="964" height="34" rx="17" fill="#071821" opacity="0.58"/>
+    <text x="24" y="23" fill="#dffaf6" font-family="Segoe UI, Arial, sans-serif" font-size="18">Inputs: discharge specs + current forecast + ecology thresholds -> output: valve timing + dilution radius + halt/mitigate/stage report</text>
+  </g>
+</svg>
+
