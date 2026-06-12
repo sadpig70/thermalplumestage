@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/ThermalPlumeStage_hero.png" alt="ThermalPlume Stage marine thermal-discharge plume planning banner" width="100%">
+</p>
+
 # ThermalPlume Stage
 
 ThermalPlume Stage plans marine thermal-discharge dispersion for geothermal or industrial outfalls. It converts discharge specs, current forecasts, and ecological thresholds into valve timing, spatial dilution windows, and threshold evidence.
